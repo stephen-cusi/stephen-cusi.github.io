@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"> <!-- 添加这行代码来设置字符编码为UTF-8 -->
 	<title>9E2の甜蜜之家</title>
 	<style>
 		#content {
@@ -15,8 +15,7 @@
 <body>
 	<div id="content">
 		<p>9e2司马之日</p>
-		<img src="https://img1.imgtp.com/2023/07/23/exvxxaSf.jpg" alt="第一张图片">
-		<img src="https://img1.imgtp.com/2023/07/23/xsCJ4DrR.jpg" alt="第二张图片">
+		<img src="https://img1.imgtp.com/2023/07/23/exvxxaSf.jpg" alt="图片">
 	</div>
 </body>
 </html>
