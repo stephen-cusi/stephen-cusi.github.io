@@ -1,9 +1,8 @@
 // 原有点击播放音频代码
 
-document.addEventListener("DOMContentLoaded", function() {
-
-  // ...
-
+document.addEventListener('DOMContentLoaded', () => {
+  let audio = new Audio('assets/granny_menu.mp3');
+  audio.play();
 });
 
 
