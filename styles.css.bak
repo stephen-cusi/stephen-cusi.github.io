@@ -4,11 +4,7 @@
   text-align: center;
   color: red;
   font-size: 24px;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 /* 其他样式 */
-
-body {
-  background-color: red;
-}
