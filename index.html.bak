@@ -2,14 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>9E2の甜蜜之家</title>
+	<title>9E2的甜蜜之家</title>
 	<style>
-		#content {
-			text-align: center;
-			color: red;
-			font-size: 24px;
-			margin-top: 50px;
-		}
+	#content {
+		text-align: center;
+		color: red;
+		font-size: 24px;
+		margin-top: 50px;
+	}
 	</style>
 </head>
 <body>
@@ -18,5 +18,17 @@
 		<img src="https://img1.imgtp.com/2023/07/23/exvxxaSf.jpg" alt="第一张图片">
 		<img src="https://img1.imgtp.com/2023/07/23/xsCJ4DrR.jpg" alt="第二张图片">
 	</div>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function(event) {
+			document.body.addEventListener("click", function() {
+				var audio = new Audio("https://s27.aconvert.com/convert/p3r68-cdx67/eoano-15ehy.mp3");
+				audio.play();
+			});
+		});
+	</script>
 </body>
 </html>
+<!-- ``` -->
+<!--  -->
+<!-- 这段代码使用JavaScript添加了一个事件监听器，当页面加载完成后（`DOMContentLoaded`事件），它会监听整个页面的点击事件。当用户点击页面的任何地方时，它会创建一个`Audio`对象，然后播放音频。注意，为了遵守浏览器的要求，音频必须使用HTTPS链接。 -->
