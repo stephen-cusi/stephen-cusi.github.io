@@ -1,11 +1,19 @@
-const button = document.getElementById('play-audio');
+// 原有点击播放音频代码
 
-button.addEventListener('click', () => {
+document.addEventListener("DOMContentLoaded", function() {
 
-  let audio = new Audio('assets/granny_menu.mp3');
+  // ...
 
-  audio.play();
-  
-  button.style.display = 'none';
+});
+
+
+// 添加底部按钮点击处理
+const btn = document.getElementById('grave-btn');
+
+btn.addEventListener('click', () => {
+
+  if(confirm('是否去看他的墓?')){
+    window.location.href = 'https://b23.tv/3Oks25P';
+  }
 
 });
