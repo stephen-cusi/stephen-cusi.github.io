@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", function() {
 
-  document.body.addEventListener('click', () => {
+  document.body.addEventListener("click", function() {
 
-    let audio = new Audio('assets/granny_menu.mp3');
+    var audio = new Audio("assets/granny_menu.mp3"); 
     audio.play();
 
   });
