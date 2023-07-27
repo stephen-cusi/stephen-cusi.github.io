@@ -1,11 +1,10 @@
-const button = document.getElementById('play-audio');
+document.addEventListener('DOMContentLoaded', () => {
 
-button.addEventListener('click', () => {
+  document.body.addEventListener('click', () => {
 
-  let audio = new Audio('assets/granny_menu.mp3');
+    let audio = new Audio('assets/granny_menu.mp3');
+    audio.play();
 
-  audio.play();
-  
-  button.style.display = 'none';
+  });
 
 });
