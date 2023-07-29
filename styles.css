@@ -1,20 +1,137 @@
-/* styles.css */
-
-#content {
-  text-align: center;
-  color: red;
-  font-size: 24px;
-  margin-top: 50px; 
+@font-face { /*规定中文字体*/
+  font-family: LXGW;
+  src: url(./FONT/LXGWNeoXiHei.ttf);
 }
 
-/* 其他样式 */
-
-body {
+body{
+  font-family:TexFont , LXGW; /*应用字体*/
+  font-size: 20px;
   background-color: red;
+  color:white;
 }
 
-#grave-btn {
+a{text-decoration: none;}
+
+/*导航栏*/
+.NX_Topbar{
+  background-color: white;
+  box-shadow: 0px 5px 5px #888888;
+  margin-left: -1%;
+  margin-right: 100%;
+  position: fixed;
+  z-index: 9999999999;
+  white-space: nowrap;
+  padding-right: 101%;
+  margin-top: -1%;
+  float: left;
+  display: flex;
+}
+
+.NX_Lobby{
+  padding-top: 0.5rem;
+  padding-bottom: 0.003rem;
+  margin-left: 2rem;
+  overflow: hidden;
+  display: flex;
+  font-size: 15px;
+  white-space: nowrap;
+  color: red;
+  transition:color 0.4s;   
+
+}
+
+.NX_Lobby:hover{
+  cursor: pointer;
+  color: rgb(249, 80, 80);
+}
+
+/* 头图(Header) */
+.NX_TopZone{
+  background-color: darkred;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-clip: padding-box;
+  background-attachment: fixed;
+
+  margin-left: -1%;
+  margin-right: -0.5%;
+
+  min-width: 100vh;
+  
+  overflow: hidden;
+
+  background-image: url(https://img1.imgtp.com/2023/07/27/406sJYb4.jpg);
+}
+
+.NX_TopFont{
+  position: relative;
+  left:5rem;
+  margin-top:5rem;
+  font-size:24px;
+  color: #FFF;
+}
+
+
+/*文章区域*/
+.NX_LeftImp{
+  margin-top:25rem;
+  margin: 1rem;
+  margin-left:6rem;
+  padding: 1rem 1rem;
+  padding-right: 114514rem;
+  background-image: url();
+  box-shadow: 0px 5px 5px #000;
+
+  width: 100%;
+
+  display: inline;
+  float: left;
+
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+
+  transition:margin-left 0.3s;
+  
+  z-index: 4;
+}
+
+a{text-decoration: none;}
+
+.NX_LeftImp:hover{
+  margin-left:-1rem;
+}
+
+.NX_LeftImp_Font{
+  font-size: 24px;
+  line-height: 0%;
+  width: auto;
+}
+
+.NX_FloatLeft{
+  position: absolute;
+  float: left;
+  width: 75%;
+  margin-left: 1rem;
+}
+
+.NX_FloatRight{
+  position: relative;
+  float: right;
+  width: 25%;
+  margin-left: 1rem;
+  white-space:nowrap;
+}
+
+.NX_button{
   position: fixed;
   bottom: 20px;
   right: 20px;
+  box-shadow: 8px 8px 8px rgba(0,0,0,0.3) , -8px -8px -8px rgba(255,255,255,0.7);
+  background-color: white;
+  display: block;
+  color: black;
+}
+
+main{
+  margin-left: 5%;
 }
