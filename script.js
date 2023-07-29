@@ -28,12 +28,3 @@ document.addEventListener('DOMContentLoaded', () => {
 //...省略
 
 // 添加底部按钮点击处理
-const btn = document.getElementById('grave-btn');
-
-btn.addEventListener('click', () => {
-
-  if(confirm('是否去看他的墓?')){
-    window.location.href = 'https://b23.tv/3Oks25P';
-  }
-
-});
